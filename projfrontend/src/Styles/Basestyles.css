@@ -3,7 +3,7 @@ html{
 }
 
 body {
-  background: #AEC7FA;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Images/Background.jpg");
   padding:0;
   margin:0;
   font-family: sans-serif;
@@ -44,6 +44,6 @@ footer{
   margin-top: auto;
  width: 100%;
  left:0px;
-  bottom:0px;
+  bottom:0;
   grid-column: 1/-1;
 }

@@ -9,7 +9,7 @@ const Signin = ()=>{
     const signInForm = ()=>{
         return (
                 <div className="signupcontainer">
-                    <Title heading='Signup'></Title>
+                    <Title heading='Signin'></Title>
                     <form >
                         <div className="form-group">
                             <label  className="text-dark">Email</label>
@@ -21,7 +21,7 @@ const Signin = ()=>{
                         </div>
                         <button onClick={onSubmit} className="btn btn-primary btn-block button">Submit</button>
                     </form>
-                    <p className="text-dark text-center">{JSON.stringify(values)}</p>
+                    
                </div>
         )
     }
